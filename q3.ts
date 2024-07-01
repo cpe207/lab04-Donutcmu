@@ -1,9 +1,9 @@
-function primeNumber(a: number){
+function primeNumber(a:number){
   /* Your code here */
-  for (let i =2; i<=a+1; i++) {
+  for (let i =2; i<=a; i++) {
     if(a<=1){
       return "NO";
-    }
+  }
     if(a==i){
       return "Yes";
     }

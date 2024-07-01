@@ -1,19 +1,19 @@
-function primeNumber(a) {
-    /* Your code here */
-    for (let i =2; i<=a+1; i++) {
-        if(a<=1){
-            return "NO";
-        }
-        if(a==i){
-          return "Yes";
-        }
-        if (a%i==0) {
-    
-          return "NO";
-        }
-          i++;
-      }
+function primeNumber(a: number){
+  /* Your code here */
+  for (let i =2; i<=a; i++) {
+    if(a<=1){
+      return "NO";
+  }
+    if(a==i){
       return "Yes";
+    }
+    if (a%i==0) {
+
+      return "NO";
+    }
+      i++;
+  }
+  return "Yes";
 }
 var d1 = 10;
 var d2 = 29;
