@@ -1,8 +1,22 @@
-function typeChecker(a, b) {
+function typeChecker(a:string | number, b:string | number) {
+  if(typeof a === 'string' && typeof b === 'string'){
+    return "I love you";
+  };
+  if(typeof a === 'number' && typeof b === 'number'){
+    return a+b;
+  };
+  if(typeof a ==='string' && typeof b === 'number'){
+    return "NOT MATCHED";
+  };
+  if(typeof a ==='number' && typeof b ==='string'){
+    return "NOT MATCHED";
+  };
   /* Your code here */
+  return "NOT MATCHED";
 }
-
 //Test cases
+
+//นายปัณณทัต เงินงาม 660610775
 const a1 = "Jack";
 const b1 = "Rose";
 const a2 = 555;

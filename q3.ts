@@ -1,6 +1,20 @@
-function primeNumber(a) {
+function primeNumber(a: number){
   /* Your code here */
+  for (let i =2; i<=a; i++) {
+    if(a==i){
+      return "Yes";
+    }
+    if (a%i==0) {
+
+      return "No";
+    }
+    else {
+      i++;
+    }
+  }
+  return "Yes";
 }
+//นายปัณณทัต เงินงาม 660610775
 
 const d1 = 10;
 const d2 = 29;
