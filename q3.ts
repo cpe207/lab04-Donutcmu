@@ -6,7 +6,7 @@ function primeNumber(a: number){
     }
     if (a%i==0) {
 
-      return "No";
+      return "NO";
     }
       i++;
   }
