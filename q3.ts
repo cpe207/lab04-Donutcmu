@@ -1,6 +1,6 @@
 function primeNumber(a: number){
   /* Your code here */
-  for (let i =2; i<=a; i++) {
+  for (let i =2; i<=a+1; i++) {
     if(a==i){
       return "Yes";
     }
@@ -8,9 +8,7 @@ function primeNumber(a: number){
 
       return "No";
     }
-    else {
       i++;
-    }
   }
   return "Yes";
 }
