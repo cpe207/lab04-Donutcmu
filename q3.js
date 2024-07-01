@@ -10,7 +10,6 @@ function primeNumber(a) {
         if (a % i == 0) {
             return "NO";
         }
-        i++;
     }
 }
 //นายปัณณทัต เงินงาม 660610775
