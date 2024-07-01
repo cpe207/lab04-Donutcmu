@@ -13,7 +13,6 @@ function primeNumber(a:number){
     }
       i++;
   }
-  return "Yes";
 }
 //นายปัณณทัต เงินงาม 660610775
 

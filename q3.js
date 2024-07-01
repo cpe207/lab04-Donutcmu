@@ -1,20 +1,19 @@
-function primeNumber(a: number){
-  /* Your code here */
-  for (let i =2; i<=a; i++) {
-    if(a<=1){
-      return "NO";
-  }
-    if(a==i){
-      return "Yes";
+function primeNumber(a) {
+    /* Your code here */
+    for (var i = 2; i <= a; i++) {
+        if (a <= 1) {
+            return "NO";
+        }
+        if (a == i) {
+            return "Yes";
+        }
+        if (a % i == 0) {
+            return "NO";
+        }
+        i++;
     }
-    if (a%i==0) {
-
-      return "NO";
-    }
-      i++;
-  }
-  return "Yes";
 }
+//นายปัณณทัต เงินงาม 660610775
 var d1 = 10;
 var d2 = 29;
 var d3 = 2;
