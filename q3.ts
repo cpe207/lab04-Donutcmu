@@ -5,7 +5,7 @@ function primeNumber(a:number){
       return "NO";
   }
     if(a==i){
-      return "Yes";
+      return "YES";
     }
     if (a%i==0) {
 
